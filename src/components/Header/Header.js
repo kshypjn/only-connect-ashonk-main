@@ -7,7 +7,7 @@ function Header() {
   rreturn (
     <header>
       <div>
-        <h1 className="magaHead" style={{fontFamily: "Montserrat"}}>Ashoka Connections</h1>
+        <h1 className="font-serif text-orange-700">Ashoka Connections</h1>
         <InfoModal />
       </div>
     </header>

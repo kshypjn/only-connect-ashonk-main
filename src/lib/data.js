@@ -1,28 +1,9 @@
 export const CONNECTION_GAMES = [
-  [
-    
-    {
-      category: "Equilibrium 2.0 Sponsors",
-      words: ["Canara Bank","Too Yumm","BMW Infinity Cars","Campus Fund"],
-      difficulty:4,
-    },
-    {
-      category: "Companies with Classrooms named after them",
-      words: ["Genpact", "HDFC Bank", "Star", "Infoedge"],
-      difficulty: 3,
-    },
-    {
-      category: "____ Ghosh",
-      words: ["Munmun","Pritam","Sourav","Simantini"],
-      difficulty:1,
-    },
-    {
-      category: "_____ Banerjee",
-      words: ["Subhasish","Debapratim","Piyali","Arpan"],
-      difficulty:2,
-    },
-    
-  ],
+  
+  
+  
+  
+  
   [
     {
       category: "Club Newsletters",
@@ -46,6 +27,30 @@ export const CONNECTION_GAMES = [
       difficulty:3,
     },
 
+  ],
+  [
+    
+    {
+      category: "Equilibrium 2.0 Sponsors",
+      words: ["Canara Bank","Too Yumm","BMW Infinity Cars","Campus Fund"],
+      difficulty:4,
+    },
+    {
+      category: "Companies with Classrooms named after them",
+      words: ["Genpact", "HDFC Bank", "Star", "Infoedge"],
+      difficulty: 3,
+    },
+    {
+      category: "____ Ghosh",
+      words: ["Munmun","Pritam","Sourav","Simantini"],
+      difficulty:1,
+    },
+    {
+      category: "_____ Banerjee",
+      words: ["Subhasish","Debapratim","Piyali","Arpan"],
+      difficulty:2,
+    },
+    
   ],
   [
     {

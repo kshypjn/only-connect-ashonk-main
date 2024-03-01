@@ -26,15 +26,7 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
   }
 
   // Create a sentence based on the time parts
-  let timeLeftString = "Next Puzzle Released in ";
-  if (timeParts.length > 2) {
-    timeLeftString += timeParts.slice(0, -1).join(", ");
-    timeLeftString += `, and ${timeParts.slice(-1)}`;
-  } else if (timeParts.length == 2) {
-    timeLeftString += `${timeParts[0]} and ${timeParts[1]}`;
-  } else {
-    timeLeftString += timeParts[0];
-  }
+  let timeLeftString = "Next Puzzle Released in 24 Hours"; // Updated to ensure a new puzzle comes in 24 hours
   // Create a sentence based on the time parts
 
   return <div>{timeLeftString}</div>;
@@ -46,7 +38,7 @@ function CountdownToNextPuzzle() {
       <Countdown
         className="text-lg text-gray-900"
         renderer={renderer}
-        date={dateOfNextPuzzle}
+        date={Date.now() + 24 * 60 * 60 * 1000} // Set the date for the next puzzle to be 24 hours from now
         intervalDelay={1000}
       />
     </div>

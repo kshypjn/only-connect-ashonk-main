@@ -44,6 +44,12 @@ function InfoModal() {
                     {`You can make ${MAX_MISTAKES} mistakes before the game ends.`}
                   </AccordionContent>
                 </AccordionItem>
+                <AccordionItem value="item-4">
+                  <AccordionTrigger>Contribute to the Game</AccordionTrigger>
+                  <AccordionContent>
+                    <a href="https://forms.gle/o1zHDmMBgCxJCZi59" className="text-blue-800 underline">Click Here</a>
+                  </AccordionContent>
+                </AccordionItem>
               </Accordion>
             </TabsContent>
           </Tabs>

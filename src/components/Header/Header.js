@@ -4,12 +4,10 @@ import InfoModal from "../modals/InfoModal";
 
 
 function Header() {
-  rreturn (
+  return (
     <header>
-      <div>
-        <h1 className="font-serif text-orange-700">Ashoka Connections</h1>
+        <h1 className="font-serif  text-pink-600 text-center">Ashoka Connections</h1>
         <InfoModal />
-      </div>
     </header>
   );
 }

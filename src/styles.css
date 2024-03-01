@@ -139,7 +139,7 @@ h1 {
     padding-left: var(--game-spacing);
     padding-right: var(--game-spacing);
     margin: 0 2px; */
-    min-width: max(200px, 60vh, 50%);
+    /* min-width: max(200px, 60vh, 50%); */
     max-width: min(800px, 68vh, 100%);
   }
 }

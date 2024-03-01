@@ -2,11 +2,14 @@ import React from "react";
 
 import InfoModal from "../modals/InfoModal";
 
+
 function Header() {
-  return (
+  rreturn (
     <header>
-      <h1 className="font-montserrat text-center">Ashoka Connections</h1>
-      <InfoModal />
+      <div>
+        <h1 className="magaHead" style={{fontFamily: "Montserrat"}}>Ashoka Connections</h1>
+        <InfoModal />
+      </div>
     </header>
   );
 }

@@ -127,3 +127,19 @@ h1 {
 #finalText{
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .game-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--game-spacing);
+    padding-top: 16px;
+    padding-bottom: var(--game-spacing);
+    padding-left: var(--game-spacing);
+    padding-right: var(--game-spacing);
+    margin: 0 2px;
+    min-width: max(200px, 60vh, 50%);
+    max-width: min(800px, 68vh, 100%);
+  }
+}

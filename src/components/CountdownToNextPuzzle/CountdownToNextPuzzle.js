@@ -38,7 +38,7 @@ function CountdownToNextPuzzle() {
       <Countdown
         className="text-lg text-gray-900"
         renderer={renderer}
-        date={Date.now() + 24 * 60 * 60 * 1000} // Set the date for the next puzzle to be 24 hours from now
+        date={Date.now()} // Set the date for the next puzzle to be 24 hours from now
         intervalDelay={1000}
       />
     </div>

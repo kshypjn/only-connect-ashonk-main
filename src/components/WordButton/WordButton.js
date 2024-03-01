@@ -37,27 +37,24 @@ function WordButton({ word, fullCandidateSize }) {
     }
   }
 
-  //const fontSizeByWordLength = 9characters works with 0.6rem
-
   function getFontSize(word) {
     const baseLength = 7;
     const wordLength = word.length;
     let fontSize = 1;
     if (wordLength > baseLength) {
       const numExtraChars = wordLength - baseLength;
-      if (4>numExtraChars>0){
+      if (numExtraChars > 0 && numExtraChars <= 4) {
         fontSize = 0.7;
         return `${fontSize}rem`;
+      } else if (numExtraChars > 4) {
+        fontSize = fontSize - numExtraChars * 0.1;
+        fontSize = Math.max(0.5, fontSize);
+        return `${fontSize}em`;
       }
-      else if (numExtraChars > 4) {
-      fontSize = fontSize - numExtraChars * 0.1;
-      fontSize = Math.max(0.5, fontSize);
-      return `${fontSize}em`;
-    } else {
-      return null;
     }
+    return null;
   }
-  // word = "washingtonian";
+
   return (
     <Toggle
       className={`${styles.growShrink} select-none`}

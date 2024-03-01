@@ -44,11 +44,11 @@ function WordButton({ word, fullCandidateSize }) {
     if (wordLength > baseLength) {
       const numExtraChars = wordLength - baseLength;
       if (numExtraChars > 0 && numExtraChars <= 6) {
-        fontSize = 0.7;
+        fontSize = .75;
         return `${fontSize}rem`;
       } else if (numExtraChars > 6) {
         fontSize = fontSize - numExtraChars * 0.1;
-        fontSize = Math.max(0.5, fontSize);
+        fontSize = Math.max(0.65, fontSize);
         return `${fontSize}em`;
       }
     }

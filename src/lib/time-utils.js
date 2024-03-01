@@ -1,3 +1,4 @@
+// Import necessary libraries
 import {
   addDays,
   differenceInDays,
@@ -16,14 +17,13 @@ export const getToday = () => startOfToday();
 export const getYesterday = () => startOfYesterday();
 
 // October 2023 Game Epoch
-// https://stackoverflow.com/questions/2552483/why-does-the-month-argument-range-from-0-to-11-in-javascripts-date-constructor
 export const firstGameDate = new Date(2023, 9, 23);
-export const periodInDays = 7;
+export const periodInDays = 1; // Change period to 1 day
 
 export const getLastGameDate = (today) => {
   const t = startOfDay(today);
-  let daysSinceLastGame = differenceInDays(t, firstGameDate) % periodInDays;
-  return addDays(t, -daysSinceLastGame);
+  let daysSinceFirstGame = differenceInDays(t, firstGameDate);
+  return addDays(t, -daysSinceFirstGame);
 };
 
 export const getNextGameDate = (today) => {
@@ -41,7 +41,6 @@ export const isValidGameDate = (date) => {
 export const getIndex = (gameDate) => {
   let start = firstGameDate;
   let index = -1;
-  console.log(firstGameDate);
   do {
     index++;
     start = addDays(start, periodInDays);
@@ -62,7 +61,6 @@ export const getSolution = (gameDate) => {
   const nextGameDate = getNextGameDate(gameDate);
   const index = getIndex(gameDate);
   const puzzleOfTheDay = getPuzzleOfDay(index);
-  console.log("index for today: ", index);
   return {
     puzzleAnswers: puzzleOfTheDay,
     puzzleGameDate: gameDate,
@@ -102,7 +100,6 @@ export const setGameDate = (d) => {
 };
 
 export const getIsLatestGame = () => {
-  // https://github.com/cwackerfuss/react-wordle/pull/505
   const parsed = queryString.parse(window.location.search);
   return parsed === null || !("d" in parsed);
 };

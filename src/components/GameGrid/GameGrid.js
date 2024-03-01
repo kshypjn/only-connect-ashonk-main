@@ -1,7 +1,7 @@
 import React from "react";
 
 import WordButton from "../WordButton";
-
+import * as styles from "../../styles.css";
 import * as styles from "./GameGrid.module.css";
 
 import { useSpring, animated } from "react-spring";
@@ -66,8 +66,8 @@ export function SolvedWordRow({ ...props }) {
                   View More
                 </Badge>
               )}
-              <p className="font-bold text-center pt-2 pl-4">{props.category}</p>
-              <p className="font-thin text-center pb-2 pl-4">{props.words.join(", ")}</p>
+              <p className="font-bold text-center pt-2 pl-4" id="finalText">{props.category}</p>
+              <p className="font-thin text-center pb-2 pl-4" id="finalText">{props.words.join(", ")}</p>
             </div>
           </PopoverTrigger>
           <PopoverContent>

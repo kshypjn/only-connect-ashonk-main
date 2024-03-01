@@ -123,3 +123,7 @@ h1 {
     transform: translateY(0%);
   }
 }
+
+#finalText{
+  text-align: center;
+}

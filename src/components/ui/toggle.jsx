@@ -14,10 +14,10 @@ const toggleVariants = cva(
           "border-solid border border-input bg-transparent lg:hover:bg-accent lg:hover:text-accent-foreground",
       },
       size: {
-        default: "h-10 px-2",
+        default: "h-14 px-2 w-110", // Changed width from 3 to 4
         sm: "h-9 px-2.5",
         lg: "h-11 px-5",
-        mobile: "h-8 px-2", // Added mobile variant for responsiveness
+        mobile: "h-8 px-1", // Added mobile variant for responsiveness
       },
     },
     defaultVariants: {

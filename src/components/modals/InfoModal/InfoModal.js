@@ -21,7 +21,6 @@ function InfoModal() {
           <Tabs defaultValue="how-to-play">
             <TabsList className="grid w-full grid-cols-2">
               <TabsTrigger value="how-to-play">How To Play</TabsTrigger>
-              <TabsTrigger value="about-us">About Us</TabsTrigger>
             </TabsList>
             <TabsContent value="how-to-play">
               {" "}

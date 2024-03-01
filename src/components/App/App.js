@@ -6,6 +6,7 @@ import { Toaster } from "../ui/toaster";
 import PuzzleDataProvider from "../../providers/PuzzleDataProvider";
 import GameStatusProvider from "../../providers/GameStatusProvider";
 
+
 function App() {
   return (
     <PuzzleDataProvider>

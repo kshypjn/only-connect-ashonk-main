@@ -23,10 +23,10 @@ function WordRow({ words }) {
 
 export function SolvedWordRow({ ...props }) {
   const DIFFICULTY_COLOR_MAP = {
-    1: "rgb(74 222 128)", // green
-    2: "rgb(251 191 36)", // amber
-    3: "rgb(129 140 248)", //indigo
-    4: "rgb(34 211 238)", //cyan
+    1: '#fbd400',
+    2: '#b5e352',
+    3: '#729eeb',
+    4: '#bc70c4',
   };
 
   const color = `${DIFFICULTY_COLOR_MAP[props.difficulty]}`;
@@ -66,8 +66,8 @@ export function SolvedWordRow({ ...props }) {
                   View More
                 </Badge>
               )}
-              <p className="font-bold pt-2 pl-4">{props.category}</p>
-              <p className="font-thin pb-2 pl-4">{props.words.join(", ")}</p>
+              <p className="font-bold text-center pt-2 pl-4">{props.category}</p>
+              <p className="font-thin text-center pb-2 pl-4">{props.words.join(", ")}</p>
             </div>
           </PopoverTrigger>
           <PopoverContent>

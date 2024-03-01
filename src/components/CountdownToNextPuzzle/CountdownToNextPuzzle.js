@@ -9,7 +9,7 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
   if (completed) {
     return (
       <span className="font-[600]">
-        New Game Available! Refresh Your Browser.
+        See you Tomorrow!
       </span>
     );
   }

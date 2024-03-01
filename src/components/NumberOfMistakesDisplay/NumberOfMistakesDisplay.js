@@ -1,6 +1,6 @@
 import React from "react";
 import { range } from "../../lib/utils";
-import { Circle, CircleSlash } from "lucide-react";
+import { Circle, CircleSlash, Heart, HeartCrack } from "lucide-react";
 import { MAX_MISTAKES } from "../../lib/constants";
 import { GameStatusContext } from "../../providers/GameStatusProvider";
 
@@ -8,9 +8,9 @@ function SingleMistakeDisplay({ isUsed }) {
   return (
     <div>
       {isUsed ? (
-        <CircleSlash className="h-4 w-4 mt-1 stroke-neutral-400" />
+        <HeartCrack className="h-4 w-4 mt-1 stroke-pink-400" />
       ) : (
-        <Circle className="h-4 w-4 mt-1 fill-green-300 stroke-cyan-300" />
+        <Heart className="h-4 w-4 mt-1 fill-red-500 stroke-red-500" />
       )}
     </div>
   );

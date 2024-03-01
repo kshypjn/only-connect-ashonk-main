@@ -80,12 +80,12 @@ function GameControlButtonsPanel({
       setGridShake(true);
       if (isGuessOneAway) {
         toast({
-          label: "Notification",
+          type: "alert",
+          position: "top-left", 
           title: "Close Guess",
-          description:
-            "One Away!",
+          description: "One Away!",
         });
-      }
+      }      
     }
   }
 

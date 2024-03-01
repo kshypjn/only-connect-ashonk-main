@@ -71,7 +71,7 @@ export const CONNECTION_GAMES = [
     },
     {
       category: "APL 6.0 Teams",
-      words: ["Elephant","Magic Moments","Red Challengers","Banta Bros"],
+      words: ["Elephant","Magic Moments","KFC","Banta Bros"],
       difficulty:4,
     },
 

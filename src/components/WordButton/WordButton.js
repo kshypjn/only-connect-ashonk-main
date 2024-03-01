@@ -40,7 +40,7 @@ function WordButton({ word, fullCandidateSize }) {
   //const fontSizeByWordLength = 9characters works with 0.6rem
 
   function getFontSize(word) {
-    const baseLength = 7;
+    const baseLength = 10;
     const wordLength = word.length;
     let fontSize = 1;
     if (wordLength > baseLength) {

@@ -13,7 +13,12 @@ function GameWonModal({ open, submittedGuesses }) {
     <BaseModal
       title="You won the game!"
       initiallyOpen={open}
-      footerElements={<ShareScoreButton />}
+      footerElements={
+        <>
+          <ShareScoreButton />
+          <button className= "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded" onClick={() => window.open("https://forms.gle/o1zHDmMBgCxJCZi59", '_blank')}>Contribute to the Game</button>
+        </>
+      }
       showActionButton={false}
     >
       <p>{"Great job, share your results!"}</p>

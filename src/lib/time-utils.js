@@ -17,7 +17,7 @@ export const getToday = () => startOfToday();
 export const getYesterday = () => startOfYesterday();
 
 // October 2023 Game Epoch
-export const firstGameDate = new Date(2023, 9, 23);
+export const firstGameDate = new Date(2024,2,1);
 export const periodInDays = 1; // Change period to 1 day
 
 export const getLastGameDate = (today) => {
@@ -53,8 +53,9 @@ export const getPuzzleOfDay = (index) => {
   if (index < 0) {
     throw new Error("Invalid index");
   }
-
+  console.log(index);
   return CONNECTION_GAMES[index % CONNECTION_GAMES.length];
+  
 };
 
 export const getSolution = (gameDate) => {

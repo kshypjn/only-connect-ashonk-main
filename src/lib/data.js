@@ -29,30 +29,6 @@ export const CONNECTION_GAMES = [
 
   ],
   [
-    
-    {
-      category: "Equilibrium 2.0 Sponsors",
-      words: ["Canara Bank","Too Yumm","BMW Infinity Cars","Campus Fund"],
-      difficulty:4,
-    },
-    {
-      category: "Companies with Classrooms named after them",
-      words: ["Genpact", "HDFC Bank", "Star", "Infoedge"],
-      difficulty: 3,
-    },
-    {
-      category: "____ Ghosh",
-      words: ["Munmun","Pritam","Sourav","Simantini"],
-      difficulty:1,
-    },
-    {
-      category: "_____ Banerjee",
-      words: ["Subhasish","Debapratim","Piyali","Arpan"],
-      difficulty:2,
-    },
-    
-  ],
-  [
     {
       category: "Breakfast Porridge Flavour",
       words: ["Berry Burst","Coconut","Plain","Tropical Fruit Punch"],
@@ -73,6 +49,54 @@ export const CONNECTION_GAMES = [
       category: "APL 6.0 Teams",
       words: ["Elephant","Magic Moments","KFC","Banta Bros"],
       difficulty:4,
+    },
+
+  ],
+  [
+    
+    {
+      category: "Equilibrium 2.0 Sponsors",
+      words: ["Canara Bank","Too Yumm","BMW Infinity Cars","Campus Fund"],
+      difficulty:4,
+    },
+    {
+      category: "Places named after Companies",
+      words: ["Genpact", "HDFC Bank", "Star", "Infoedge"],
+      difficulty: 3,
+    },
+    {
+      category: "____ Ghosh",
+      words: ["Munmun","Pritam","Sourav","Simantini"],
+      difficulty:1,
+    },
+    {
+      category: "_____ Banerjee",
+      words: ["Subhasish","Debapratim","Piyali","Arpan"],
+      difficulty:2,
+    },
+    
+  ],
+  [
+    {
+      category: "Nescafe Maggi Flavours",
+      words: ["Original","Biryani","Peri Peri","Special"],
+      difficulty:2,
+    },
+    {
+      category: "Rooms at Ashoka",
+      words: ["Reading","Music","Meeting","Yoga"],
+      difficulty:3,
+    },
+    
+    {
+      category: "Ultimate Frisbee Terms",
+      words: ["Stack","Brick","Dump","Hammer"],
+      difficulty:4,
+    },
+    {
+      category: "Sports Block Ground Floor",
+      words: ["Infirmary","Salon","Dance","Pool Table"],
+      difficulty:1,
     },
 
   ],

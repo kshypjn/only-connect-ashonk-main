@@ -24,9 +24,9 @@ function WordRow({ words }) {
 export function SolvedWordRow({ ...props }) {
   const DIFFICULTY_COLOR_MAP = {
     1: '#fbd400',
-    2: '#b5e352',
-    3: '#729eeb',
-    4: '#bc70c4',
+    2: '#bde85f',
+    3: '#8bc9f0',
+    4: '#e59aed',
   };
 
   const color = `${DIFFICULTY_COLOR_MAP[props.difficulty]}`;

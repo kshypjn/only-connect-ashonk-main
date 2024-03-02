@@ -84,7 +84,7 @@ export const CONNECTION_GAMES = [
     },
     {
       category: "Rooms at Ashoka",
-      words: ["Reading","Music","Meeting","Yoga"],
+      words: ["Reading","Music","Mail","Yoga"],
       difficulty:3,
     },
     
@@ -95,9 +95,32 @@ export const CONNECTION_GAMES = [
     },
     {
       category: "Sports Block Ground Floor",
-      words: ["Infirmary","Salon","Dance","Pool Table"],
+      words: ["Infirmary","Salon","Dance Studio","Pool Table"],
       difficulty:1,
     },
 
+  ],
+  [
+    {
+      category: "Statues on Campus",
+      words: ["Hand","Book","Rat","Gandhi"],
+      difficulty:2,
+    },
+    {
+      category: "Names of Dogs Outside Campus(cc: Pawsitive)",
+      words: ["Kiwi","Sutta","Oreo","Midnight"],
+      difficulty:4,
+    },
+    
+    {
+      category: "Vow Spice (TKS) Outlets",
+      words: ["Charcoal","Go South","Alfredo's","Wok Tossed"],
+      difficulty:1,
+    },
+    {
+      category: "RSL 1.0 Teams",
+      words: ["Löded Diper","Theka Sonipat","Toofan Express","Incognito Mode"],
+      difficulty:3,
+    },
   ],
 ];

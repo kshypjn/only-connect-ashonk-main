@@ -118,9 +118,32 @@ export const CONNECTION_GAMES = [
       difficulty:1,
     },
     {
+      category: "Mojitos at Dosai",
+      words: ["Bull","Mango","Watermelon","Mint"],
+      difficulty:3,
+    },
+  ],
+  [
+    {
+      category: "Organisations with Ashoka Chapters",
+      words: ["Enactus","IEEE","HerCampus","SOBAC"],
+      difficulty:4,
+    },
+    {
+      category: "_____ Collective",
+      words: ["Art and Design","Feminist","Northeast","Democracy"],
+      difficulty:3,
+    },
+    
+    {
+      category: "Performing Arts Clubs",
+      words: ["Vistaar","The Comic Relief","Abhinaya","The Green Room"],
+      difficulty:2,
+    },
+    {
       category: "RSL 1.0 Teams",
       words: ["Löded Diper","Theka Sonipat","Toofan Express","Incognito Mode"],
-      difficulty:3,
+      difficulty:1,
     },
   ],
 ];

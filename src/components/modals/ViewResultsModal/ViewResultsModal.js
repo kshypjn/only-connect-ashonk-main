@@ -20,7 +20,12 @@ function ViewResultsModal() {
       }
       initiallyOpen={false}
       showActionButton={false}
-      footerElements={<ShareScoreButton buttonText={"Share Your Score!"} />}
+      footerElements={
+        <>
+          <ShareScoreButton />
+          <button className= "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded" onClick={() => window.open("https://forms.gle/o1zHDmMBgCxJCZi59", '_blank')}>Contribute to the Game</button>
+        </>
+      }
     >
       <div className="flex flex-col place-content-center">
         <p className="text-center font-[600]">

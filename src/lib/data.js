@@ -56,11 +56,11 @@ export const CONNECTION_GAMES = [
     
     {
       category: "Equilibrium 2.0 Sponsors",
-      words: ["Canara Bank","Too Yumm","BMW Infinity Cars","Campus Fund"],
+      words: ["Canara Bank","Too Yumm","IDP","Campus Fund"],
       difficulty:4,
     },
     {
-      category: "Places named after Companies",
+      category: "Companies with Campus Spots named after them",
       words: ["Genpact", "HDFC Bank", "Star", "Infoedge"],
       difficulty: 3,
     },

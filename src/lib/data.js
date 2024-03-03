@@ -1,9 +1,5 @@
 export const CONNECTION_GAMES = [
   
-  
-  
-  
-  
   [
     {
       category: "Club Newsletters",
@@ -131,7 +127,7 @@ export const CONNECTION_GAMES = [
     },
     {
       category: "_____ Collective",
-      words: ["Art and Design","Feminist","Northeast","Democracy"],
+      words: ["Art & Design","Feminist","Northeast","Democracy"],
       difficulty:3,
     },
     
@@ -141,9 +137,32 @@ export const CONNECTION_GAMES = [
       difficulty:2,
     },
     {
-      category: "RSL 1.0 Teams",
-      words: ["Magic Moments","Theka Sonipat","Toofan Express","Incognito Mode"],
+      category: "Departments of The Edict",
+      words: ["Sports","News","Art & Culture","Opinions"],
       difficulty:1,
+    },
+  ],
+  [
+    {
+      category: "Bombay(the show) Characters",
+      words: ["Pranav Ramanathan","Gayatri Mishra","Ananya Sinha","Aaryan Dhingra"],
+      difficulty:4,
+    },
+    {
+      category: "_____ Bhattacharya",
+      words: ["Alok","Mihir","Neeladri","Dipankar"],
+      difficulty:1,
+    },
+    
+    {
+      category: "Head of Departments",
+      words: ["Rajendra Bhatia","Tisha Srivastav","Justin McCarthy","Kathryn Hardy"],
+      difficulty:2,
+    },
+    {
+      category: "Prof whose partners also taught at Ashoka(exes count shush)",
+      words: ["Madhavi Menon","Kranti Saran","Aditi Sriram","Nayan Chanda"],
+      difficulty:3,
     },
   ],
 ];

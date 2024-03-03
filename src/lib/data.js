@@ -142,7 +142,7 @@ export const CONNECTION_GAMES = [
     },
     {
       category: "RSL 1.0 Teams",
-      words: ["Löded Diper","Theka Sonipat","Toofan Express","Incognito Mode"],
+      words: ["Magic Moments","Theka Sonipat","Toofan Express","Incognito Mode"],
       difficulty:1,
     },
   ],

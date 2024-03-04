@@ -155,7 +155,7 @@ export const CONNECTION_GAMES = [
       difficulty:3,
     },
    
-   
+
     {
       category: "Head of Departments",
       words: ["Rajendra Bhatia","Tisha Srivastav","Justin McCarthy","Kathryn Hardy"],
@@ -204,13 +204,13 @@ export const CONNECTION_GAMES = [
     
     {
       category: "ONLY Minors",
-      words: ["Astronomy","Visual Arts","Performing Arts","Entreprenurship"],
+      words: ["Astronomy","Visual Arts","Performing Arts","Environmental Studies"],
       difficulty:3,
     },
     {
       category: "Interdisciplinary with Phil (PPE,PHICS,PSYPHI)",
-      words: ["Psychology","Pol.Sci","Computer Science","Economics"],
-      difficulty:24,
+      words: ["Psychology","Politcal Science","Computer Science","Economics"],
+      difficulty:4,
     },
   ],
 ];

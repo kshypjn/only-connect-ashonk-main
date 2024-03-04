@@ -98,8 +98,8 @@ export const CONNECTION_GAMES = [
   ],
   [
     {
-      category: "Organisations with Ashoka Chapters",
-      words: ["Enactus","IEEE","HerCampus","SOBAC"],
+      category: "Ashoka Chapters of Organisations",
+      words: ["Enactus","IASB","HerCampus","SOBAC"],
       difficulty:4,
     },
     {

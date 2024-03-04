@@ -194,7 +194,7 @@ export const CONNECTION_GAMES = [
     {
       category: "______ Bhattacharya",
       words: ["Alok","Neeladri","Mihir","Dipankar"],
-      difficulty:3,
+      difficulty:1,
     },
     {
       category: "_____ Sharma",
@@ -205,12 +205,12 @@ export const CONNECTION_GAMES = [
     {
       category: "ONLY Minors",
       words: ["Astronomy","Visual Arts","Performing Arts","Entreprenurship"],
-      difficulty:1,
+      difficulty:3,
     },
     {
       category: "Interdisciplinary with Phil (PPE,PHICS,PSYPHI)",
       words: ["Psychology","Pol.Sci","Computer Science","Economics"],
-      difficulty:4,
+      difficulty:24,
     },
   ],
 ];

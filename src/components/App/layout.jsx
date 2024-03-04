@@ -1,3 +1,4 @@
+'use client';
 import { Analytics } from '@vercel/analytics/react';
  
 export default function RootLayout({ children }) {
@@ -8,9 +9,8 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         {children}
-        <Analytics />
+        <Analytics mode={'production'} />;
       </body>
     </html>
   );
-  
 }

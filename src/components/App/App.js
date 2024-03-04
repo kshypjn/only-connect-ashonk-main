@@ -15,8 +15,8 @@ function App() {
           <Header />
           <Game />
         </div>
+        <Analytics />
       </GameStatusProvider>
-      <Analytics />
     </PuzzleDataProvider>
     
     </>

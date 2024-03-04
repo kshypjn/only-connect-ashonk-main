@@ -165,4 +165,27 @@ export const CONNECTION_GAMES = [
       difficulty:3,
     },
   ],
+  [
+    {
+      category: "Located in the Basement",
+      words: ["Tuck Shop","Laundry","Mail Room","Archives of Contemporary India"],
+      difficulty:3,
+    },
+    {
+      category: "Places with TT Tables",
+      words: ["RH1","RH3","Sports Block","RH5"],
+      difficulty:2,
+    },
+    
+    {
+      category: "TGR Plays",
+      words: ["Band Darvaze","The Inheritance","I Don't Like This","Hold The Mushrooms"],
+      difficulty:1,
+    },
+    {
+      category: "Performance Venues",
+      words: ["Black Box","Reddy's","Amphitheatre","Mess Lawns"],
+      difficulty:4,
+    },
+  ],
 ];

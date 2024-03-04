@@ -5,7 +5,7 @@ import { Toaster } from "../ui/toaster";
 import PuzzleDataProvider from "../../providers/PuzzleDataProvider";
 import GameStatusProvider from "../../providers/GameStatusProvider";
 import { Analytics } from "@vercel/analytics/dist/react"
-import { SpeedInsights } from "@vercel/speed-insights/dist/next";
+import { SpeedInsights } from "@vercel/speed-insights/dist/react";
 function App() {
   return (
     <>
@@ -19,7 +19,7 @@ function App() {
       </GameStatusProvider>
       <Analytics />
       <SpeedInsights />
-      
+
     </PuzzleDataProvider>
     
     </>

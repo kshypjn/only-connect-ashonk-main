@@ -98,29 +98,6 @@ export const CONNECTION_GAMES = [
   ],
   [
     {
-      category: "Statues on Campus",
-      words: ["Hand","Book","Rat","Gandhi"],
-      difficulty:2,
-    },
-    {
-      category: "Names of Dogs Outside Campus(cc: Pawsitive)",
-      words: ["Kiwi","Sutta","Oreo","Midnight"],
-      difficulty:4,
-    },
-    
-    {
-      category: "Vow Spice (TKS) Outlets",
-      words: ["Charcoal","Go South","Alfredo's","Wok Tossed"],
-      difficulty:1,
-    },
-    {
-      category: "Mojitos at Dosai",
-      words: ["Bull","Mango","Watermelon","Mint"],
-      difficulty:3,
-    },
-  ],
-  [
-    {
       category: "Organisations with Ashoka Chapters",
       words: ["Enactus","IEEE","HerCampus","SOBAC"],
       difficulty:4,
@@ -144,25 +121,50 @@ export const CONNECTION_GAMES = [
   ],
   [
     {
+      category: "Statues on Campus",
+      words: ["Hand","Book","Rat","Gandhi"],
+      difficulty:2,
+    },
+    {
+      category: "Names of Dogs Outside Campus(cc: Pawsitive)",
+      words: ["Kiwi","Sutta","Oreo","Midnight"],
+      difficulty:4,
+    },
+    
+    {
+      category: "Vow Spice (TKS) Outlets",
+      words: ["Charcoal","Go South","Alfredo's","Wok Tossed"],
+      difficulty:1,
+    },
+    {
+      category: "Mojitos at Dosai",
+      words: ["Bull","Mango","Watermelon","Mint"],
+      difficulty:3,
+    },
+  ],
+  
+  [
+    {
       category: "Bombay(the show) Characters",
       words: ["Pranav Ramanathan","Gayatri Mishra","Ananya Sinha","Aaryan Dhingra"],
       difficulty:4,
     },
     {
-      category: "_____ Bhattacharya",
-      words: ["Alok","Mihir","Neeladri","Dipankar"],
-      difficulty:1,
+      category: "Profs taught by other Ashoka Profs cc:Roshni Agarwal (UG25)",
+      words: ["Anirban Sen", "Anuradha Saha", "Kumarjit Saha", "Goutam Paul"],
+      difficulty:3,
     },
-    
+   
+   
     {
       category: "Head of Departments",
       words: ["Rajendra Bhatia","Tisha Srivastav","Justin McCarthy","Kathryn Hardy"],
-      difficulty:2,
+      difficulty:1,
     },
     {
       category: "Prof whose partners also taught at Ashoka(exes count shush)",
       words: ["Madhavi Menon","Kranti Saran","Aditi Sriram","Nayan Chanda"],
-      difficulty:3,
+      difficulty:2,
     },
   ],
   [
@@ -185,6 +187,29 @@ export const CONNECTION_GAMES = [
     {
       category: "Performance Venues",
       words: ["Black Box","Reddy's","Amphitheatre","Mess Lawns"],
+      difficulty:4,
+    },
+  ],
+  [
+    {
+      category: "______ Bhattacharya",
+      words: ["Alok","Neeladri","Mihir","Dipankar"],
+      difficulty:3,
+    },
+    {
+      category: "_____ Sharma",
+      words: ["Anisha","Ananya","Manvi","Mukul"],
+      difficulty:2,
+    },
+    
+    {
+      category: "ONLY Minors",
+      words: ["Astronomy","Visual Arts","Performing Arts","Entreprenurship"],
+      difficulty:1,
+    },
+    {
+      category: "Interdisciplinary with Phil (PPE,PHICS,PSYPHI)",
+      words: ["Psychology","Pol.Sci","Computer Science","Economics"],
       difficulty:4,
     },
   ],

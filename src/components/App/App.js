@@ -18,6 +18,7 @@ function App() {
         </div>
       </GameStatusProvider>
       <Analytics />
+      
       <SpeedInsights />
 
     </PuzzleDataProvider>

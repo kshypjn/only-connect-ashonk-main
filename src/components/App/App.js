@@ -4,7 +4,6 @@ import Game from "../Game";
 import { Toaster } from "../ui/toaster";
 import PuzzleDataProvider from "../../providers/PuzzleDataProvider";
 import GameStatusProvider from "../../providers/GameStatusProvider";
-import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (

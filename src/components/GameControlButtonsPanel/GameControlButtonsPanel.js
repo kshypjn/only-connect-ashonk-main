@@ -112,7 +112,7 @@ function GameControlButtonsPanel({
       </Button>
       <Button
         variant="submit"
-        onClick={submitCandidateGuess}
+        onClick={[track('Submit'),submitCandidateGuess]}
         disabled={isGameOver || guessCandidate.length !== categorySize}
       >
         <SendHorizontal className="h-4 w-4 mr-2" strokeWidth={1} />

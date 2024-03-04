@@ -9,6 +9,7 @@
     "@radix-ui/react-toast": "^1.1.5",
     "@radix-ui/react-toggle": "^1.0.3",
     "@vercel/analytics": "^1.2.2",
+    "@vercel/speed-insights": "^1.0.10",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "date-fns": "^2.30.0",
@@ -35,7 +36,8 @@
     "predev": "rimraf .parcel-cache dist",
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "nc": "new-component"
+    "nc": "new-component",
+    "_vercel": "vercel --prod"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "devDependencies": {

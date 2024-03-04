@@ -6,7 +6,6 @@ import PuzzleDataProvider from "../../providers/PuzzleDataProvider";
 import GameStatusProvider from "../../providers/GameStatusProvider";
 import { Analytics } from "@vercel/analytics/dist/react"
 import { SpeedInsights } from "@vercel/speed-insights/dist/react";
-import { track } from '@vercel/analytics/dist/index.d.ts';
 function App() {
   return (
     <>

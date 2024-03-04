@@ -6,7 +6,7 @@ import { useToast } from "../ui/use-toast";
 import { shareStatus } from "../../lib/share-game";
 import { GameStatusContext } from "../../providers/GameStatusProvider";
 import { PuzzleDataContext } from "../../providers/PuzzleDataProvider";
-import {track} from '@vercel/analytics/dist/index.d.ts';
+
 function ShareScoreButton({ buttonText = "Share", className = "" }) {
   const { gameData } = React.useContext(PuzzleDataContext);
   const { submittedGuesses } = React.useContext(GameStatusContext);
@@ -31,13 +31,13 @@ function ShareScoreButton({ buttonText = "Share", className = "" }) {
         className={cn(className, "w-full")}
         variant="share"
         onClick={() =>
-          [track('Share'), shareStatus(
+          shareStatus(
             gameData,
             submittedGuesses,
             handleShareToClipboard,
             handleShareFailure,
             true
-          )]
+          )
           
         }
       >

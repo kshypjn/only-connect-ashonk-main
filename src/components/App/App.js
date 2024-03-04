@@ -4,7 +4,7 @@ import Game from "../Game";
 import { Toaster } from "../ui/toaster";
 import PuzzleDataProvider from "../../providers/PuzzleDataProvider";
 import GameStatusProvider from "../../providers/GameStatusProvider";
-
+import { Analytics } from "@vercel/analytics/dist/react"
 function App() {
   return (
     <>
@@ -16,6 +16,7 @@ function App() {
           <Game />
         </div>
       </GameStatusProvider>
+      <Analytics />
     </PuzzleDataProvider>
     
     </>

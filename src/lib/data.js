@@ -99,7 +99,7 @@ export const CONNECTION_GAMES = [
   [
     {
       category: "Ashoka Chapters of Organisations",
-      words: ["Enactus","IASB","HerCampus","SOBAC"],
+      words: ["Enactus","IEEE","HerCampus","SOBAC"],
       difficulty:4,
     },
     {

@@ -28,7 +28,9 @@ function GameWonModal({ open, submittedGuesses }) {
           {"\n"}
           {generateEmojiGrid(gameData, submittedGuesses)}
         </span>
-        <CountdownToNextPuzzle />
+        <div className="bg-rose-400 text-white font-bold py-2 px-4 rounded text-center mx-auto my-4">
+                SEE YOU TOMORROW!
+        </div>
       </div>
     </BaseModal>
   );

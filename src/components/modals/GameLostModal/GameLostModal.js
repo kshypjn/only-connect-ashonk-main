@@ -28,7 +28,9 @@ function GameLostModal({ open }) {
           <SolvedWordRow key={obj.category} {...obj} />
         ))}
       </div>
-      <CountdownToNextPuzzle />
+      <div className="bg-emerald-500 text-white font-bold py-2 px-4 rounded text-center mx-auto my-4">
+                SEE YOU TOMORROW!
+        </div>
     </BaseModal>
   );
 }

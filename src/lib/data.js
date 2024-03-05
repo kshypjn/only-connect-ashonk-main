@@ -121,13 +121,37 @@ export const CONNECTION_GAMES = [
   ],
   [
     {
+      category: "Bombay(the show) Characters",
+      words: ["Pranav Ramanathan","Gayatri Mishra","Ananya Sinha","Aaryan Dhingra"],
+      difficulty:4,
+    },
+    
+    {
+      category: "Bald cc:Neeraja S(UG24)",
+      words: ["Anup Padmanabhan", "Arunava Sinha", "Abir Bazaz", "Biswajeet Banerjee"],
+      difficulty:3,
+    },
+   
+    {
+      category: "Head of Departments",
+      words: ["Rajendra Bhatia","Tisha Srivastav","Justin McCarthy","Kathryn Hardy"],
+      difficulty:1,
+    },
+    {
+      category: "Prof whose partners also taught at Ashoka(exes count shush)",
+      words: ["Madhavi Menon","Kranti Saran","Aditi Sriram","Nayan Chanda"],
+      difficulty:2,
+    },
+  ],
+  [
+    {
       category: "Statues on Campus",
       words: ["Hand","Book","Rat","Gandhi"],
       difficulty:2,
     },
     {
       category: "Names of Dogs Outside Campus(cc: Pawsitive)",
-      words: ["Kiwi","Sutta","Oreo","Midnight"],
+      words: ["Kiwi","Sutta","Brownie","Midnight"],
       difficulty:4,
     },
     
@@ -143,34 +167,11 @@ export const CONNECTION_GAMES = [
     },
   ],
   
+  
   [
     {
-      category: "Bombay(the show) Characters",
-      words: ["Pranav Ramanathan","Gayatri Mishra","Ananya Sinha","Aaryan Dhingra"],
-      difficulty:4,
-    },
-    {
-      category: "Profs taught by other Ashoka Profs cc:Roshni Agarwal (UG25)",
-      words: ["Anirban Sen", "Anuradha Saha", "Kumarjit Saha", "Goutam Paul"],
-      difficulty:3,
-    },
-   
-
-    {
-      category: "Head of Departments",
-      words: ["Rajendra Bhatia","Tisha Srivastav","Justin McCarthy","Kathryn Hardy"],
-      difficulty:1,
-    },
-    {
-      category: "Prof whose partners also taught at Ashoka(exes count shush)",
-      words: ["Madhavi Menon","Kranti Saran","Aditi Sriram","Nayan Chanda"],
-      difficulty:2,
-    },
-  ],
-  [
-    {
-      category: "Located in the Basement",
-      words: ["Tuck Shop","Laundry","Mail Room","Archives of Contemporary India"],
+      category: "Located in the Basement cc:Madhavan J(UG24)",
+      words: ["Tuck Shop","Laundry","Mail Room","Lockers"],
       difficulty:3,
     },
     {
@@ -180,8 +181,8 @@ export const CONNECTION_GAMES = [
     },
     
     {
-      category: "TGR Plays",
-      words: ["Band Darvaze","The Inheritance","I Don't Like This","Hold The Mushrooms"],
+      category: "AC04",
+      words: ["ACWB","Library","Libcaf","Archives"],
       difficulty:1,
     },
     {
@@ -197,7 +198,7 @@ export const CONNECTION_GAMES = [
       difficulty:1,
     },
     {
-      category: "_____ Sharma",
+      category: "_____ Sharma cc: Aditya Aiyer(UG25)",
       words: ["Anisha","Ananya","Manvi","Mukul"],
       difficulty:2,
     },
@@ -208,7 +209,7 @@ export const CONNECTION_GAMES = [
       difficulty:3,
     },
     {
-      category: "Interdisciplinary with Phil (PPE,PHICS,PSYPHI)",
+      category: "___ + Phil (PPE,PHICS,PSYPHI)",
       words: ["Psychology","Politcal Science","Computer Science","Economics"],
       difficulty:4,
     },

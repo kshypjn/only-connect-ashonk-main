@@ -204,7 +204,7 @@ export const CONNECTION_GAMES = [
     },
     
     {
-      category: "ONLY Minors",
+      category: "No Major, Only Minor",
       words: ["Astronomy","Visual Arts","Performing Arts","Environmental Studies"],
       difficulty:3,
     },

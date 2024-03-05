@@ -10,7 +10,7 @@ import {
   AccordionTrigger,
 } from "../../ui/accordion";
 import BaseModal from "../BaseModal";
-
+import { Toast } from "@radix-ui/react-toast";
 
 function InfoModal() {
   return (
@@ -20,12 +20,15 @@ function InfoModal() {
           initiallyOpen={true}
           actionButtonText="Got It!"
         >
-          <Tabs defaultValue="how-to-play">
+          {/* <Tabs defaultValue="how-to-play">
             <TabsList className="grid w-full">
               <TabsTrigger value="how-to-play">How To Play</TabsTrigger>
             </TabsList>
-            <TabsContent value="how-to-play">
+            <TabsContent value="how-to-play"> */}
               {" "}
+              <div className="bg-cyan-500 text-white font-bold py-2 px-4 rounded text-center mx-auto">
+                NEW GAME EVERYDAY!
+              </div>
               <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-1">
                   <AccordionTrigger>What's The Goal?</AccordionTrigger>
@@ -53,8 +56,8 @@ function InfoModal() {
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>
-            </TabsContent>
-          </Tabs>
+            {/* </TabsContent>
+          </Tabs> */}
         </BaseModal>
         
   );

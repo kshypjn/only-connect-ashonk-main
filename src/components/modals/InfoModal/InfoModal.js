@@ -1,6 +1,7 @@
 import React from "react";
 import { MAX_MISTAKES } from "../../../lib/constants";
 import { Info } from "lucide-react";
+import { Archive } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../ui/tabs";
 import {
   Accordion,
@@ -10,12 +11,13 @@ import {
 } from "../../ui/accordion";
 import BaseModal from "../BaseModal";
 
+
 function InfoModal() {
   return (
         <BaseModal
           title=""
           trigger={<Info className="mr-4" />}
-          initiallyOpen={false}
+          initiallyOpen={true}
           actionButtonText="Got It!"
         >
           <Tabs defaultValue="how-to-play">
@@ -54,6 +56,7 @@ function InfoModal() {
             </TabsContent>
           </Tabs>
         </BaseModal>
+        
   );
 }
 

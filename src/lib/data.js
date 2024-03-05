@@ -198,7 +198,7 @@ export const CONNECTION_GAMES = [
       difficulty:1,
     },
     {
-      category: "_____ Sharma cc: Aditya Aiyer(UG25)",
+      category: "Sharmaji's Children cc: Aditya Aiyer(UG25)",
       words: ["Anisha","Ananya","Manvi","Mukul"],
       difficulty:2,
     },

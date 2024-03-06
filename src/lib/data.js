@@ -151,7 +151,7 @@ export const CONNECTION_GAMES = [
     },
     {
       category: "Names of Dogs Outside Campus(cc: Pawsitive)",
-      words: ["Kiwi","Sutta","Brownie","Midnight"],
+      words: ["Kiwi","Sutta","Brownie","Popcorn"],
       difficulty:4,
     },
     
@@ -171,7 +171,7 @@ export const CONNECTION_GAMES = [
   [
     {
       category: "Located in the Basement cc:Madhavan J(UG24)",
-      words: ["Tuck Shop","Laundry","Mail Room","Lockers"],
+      words: ["Tuck Shop","Laundry","Lockers","Music Room"],
       difficulty:3,
     },
     {
@@ -181,14 +181,14 @@ export const CONNECTION_GAMES = [
     },
     
     {
-      category: "AC04",
-      words: ["ACWB","Library","Libcaf","Archives"],
-      difficulty:1,
+      category: "Located in AC04",
+      words: ["ACWB","Library","VOW Cafe","Archives"],
+      difficulty:4,
     },
     {
       category: "Performance Venues",
       words: ["Black Box","Reddy's","Amphitheatre","Mess Lawns"],
-      difficulty:4,
+      difficulty:1,
     },
   ],
   [
@@ -198,7 +198,7 @@ export const CONNECTION_GAMES = [
       difficulty:1,
     },
     {
-      category: "Sharmaji's Children cc: Aditya Aiyer(UG25)",
+      category: "_____ Sharma cc: Aditya Aiyer(UG25)",
       words: ["Anisha","Ananya","Manvi","Mukul"],
       difficulty:2,
     },
@@ -209,8 +209,54 @@ export const CONNECTION_GAMES = [
       difficulty:3,
     },
     {
-      category: "___ + Phil (PPE,PHICS,PSYPHI)",
+      category: "____ + Phil (PPE,PHICS,PSYPHI)",
       words: ["Psychology","Politcal Science","Computer Science","Economics"],
+      difficulty:4,
+    },
+  ],
+  [
+    {
+      category: "Located in Admin Block cc:Tejas N(UG25)",
+      words: ["MPH","OAA","CDO","CWC"],
+      difficulty:1,
+    },
+    {
+      category: "Former Ashokan Political Parties",
+      words: ["Prakrit","Liberandu","ASS","Sattva"],
+      difficulty:2,
+    },
+    
+    {
+      category: "Ashonk Instagram Accounts",
+      words: ["Odomos","Random","Rooms","Toofan"],
+      difficulty:3,
+    },
+    {
+      category: "Learning Platforms",
+      words: ["Classroom","Perusall","Canvas","Piazza"],
+      difficulty:4,
+    },
+  ],
+  [
+    {
+      category: "Mess Paneers",
+      words: ["Handi","Banjara","Kali Mirch","Makhana"],
+      difficulty:1,
+    },
+    {
+      category: "Mess Pasta",
+      words: ["Mix Sauce","Homestyle","Marinara","Salad"],
+      difficulty:2,
+    },
+    
+    {
+      category: "Outlet Names with food in them",
+      words: ["Pizza","Dosa","Roti","Chai"],
+      difficulty:3,
+    },
+    {
+      category: "C in ICS,ICT,IC,ICP",
+      words: ["Computer", "Critical", "Civilizations", "Comparative"],
       difficulty:4,
     },
   ],

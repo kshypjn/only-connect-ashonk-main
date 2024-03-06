@@ -250,7 +250,7 @@ export const CONNECTION_GAMES = [
     },
     
     {
-      category: "Outlet Names with food in them",
+      category: "Foods that inspired Outlet Names",
       words: ["Pizza","Dosa","Roti","Chai"],
       difficulty:3,
     },

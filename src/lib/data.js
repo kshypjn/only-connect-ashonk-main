@@ -255,7 +255,7 @@ export const CONNECTION_GAMES = [
       difficulty:3,
     },
     {
-      category: "C in ICS,ICT,IC,ICP",
+      category: "C in ICS,ICT,IC,ICP cc:Somansh(UG25)",
       words: ["Computer", "Critical", "Civilizations", "Comparative"],
       difficulty:4,
     },

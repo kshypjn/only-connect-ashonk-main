@@ -209,7 +209,7 @@ export const CONNECTION_GAMES = [
       difficulty:3,
     },
     {
-      category: "____ + Phil (PPE,PHICS,PSYPHI)",
+      category: "____ + Phil (PPE,PHICS,PSYPHI) cc:Pranav A(UG2023)",
       words: ["Psychology","Politcal Science","Computer Science","Economics"],
       difficulty:4,
     },

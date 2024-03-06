@@ -175,7 +175,7 @@ export const CONNECTION_GAMES = [
       difficulty:3,
     },
     {
-      category: "Places with TT Tables",
+      category: "Places with Table Tennis",
       words: ["RH1","RH3","Sports Block","RH5"],
       difficulty:2,
     },

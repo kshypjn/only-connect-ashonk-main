@@ -198,7 +198,7 @@ export const CONNECTION_GAMES = [
       difficulty:1,
     },
     {
-      category: "_____ Sharma cc: Aditya Aiyer(UG25)",
+      category: "Sharmajis cc: Aditya Aiyer(UG25)",
       words: ["Anisha","Ananya","Manvi","Mukul"],
       difficulty:2,
     },
@@ -260,4 +260,26 @@ export const CONNECTION_GAMES = [
       difficulty:4,
     },
   ],
+  [
+    {
+      category: "Profs taught by other Ashoka Profs cc:Roshni A(UG25)",
+      words: ["Anirban Sen", "Anuradha Saha", "Kumarjit Saha", "Goutam Paul"],
+      difficulty:3,
+    },
+    {
+      category: "TGR Plays",
+      words: ["Band Darvaze","The Inheritance","I Don't Like This","Hold The Mushrooms"],
+      difficulty:1,
+    },
+    {
+      category: "HerCampus Relationship Advice Reel",
+      words: ["Madhavi Menon","Jonathan Gil Harris","Ben Winokur","Abir Bazaz"],
+      difficulty:2,
+    },
+    {
+      category: "Screening Spots",
+      words: ["02-007","RH5","MPH","TV Lounge"],
+      difficulty:4,
+    },
+  ]
 ];

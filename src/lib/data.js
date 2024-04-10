@@ -1,5 +1,5 @@
 export const CONNECTION_GAMES = [
-  
+
   [
     {
       category: "Club Newsletters",
@@ -256,7 +256,7 @@ export const CONNECTION_GAMES = [
     },
     {
       category: "Lovsy Flavours",
-      words: ["Chatpata", "Spicy", "Salty", "Sweet"],
+      words: ["Chatpata", "Spicy", "Salty", "Timmur"],
       difficulty:4,
     },
   ],
@@ -282,4 +282,5 @@ export const CONNECTION_GAMES = [
       difficulty:4,
     },
   ]
+
 ];

@@ -281,6 +281,28 @@ export const CONNECTION_GAMES = [
       words: ["02-007","RH5","MPH","TV Lounge"],
       difficulty:4,
     },
+  ],
+  [
+    {
+      category: "Vice Chancellors of Ashoka",
+      words: ["Somak", "Malabika", "Pratap", "Rudrangshu"],
+      difficulty:1,
+    },
+    {
+      category: "You tap your ID Card Here cc:Yashwanth (UG2023)",
+      words: ["Mess","RH Commons","Main Gate","Library"],
+      difficulty:4,
+    },
+    {
+      category: "RH1 Ground Floor",
+      words: ["Siyahi Room","Pool Table","Washing Machine","Vending Machine"],
+      difficulty:2,
+    },
+    {
+      category: "____ Studies",
+      words: ["China","War","Media","Environmental"],
+      difficulty:3,
+    },
   ]
 
 ];

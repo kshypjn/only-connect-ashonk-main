@@ -121,8 +121,8 @@ function GameControlButtonsPanel({
       </Button>
     </div>
     <div>
-      <p className="text-center text-sm text-gray-500 mt-2">
-        {`Guesses Remaining: ${4 - submittedGuesses.length}`}
+      <p className="text-center text-sm text-gray-500 mt-0">
+        Made with ❤️ by <a href="https://www.instagram.com/sportlight.fun/" className="no-underline"><i className="text-amber-500">kshyp</i></a>
       </p>
     </div>
     </>

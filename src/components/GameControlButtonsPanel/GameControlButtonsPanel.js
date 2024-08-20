@@ -90,6 +90,7 @@ function GameControlButtonsPanel({
   }
 
   return (
+    <>
     <div className="grid grid-cols-3 gap-4">
       <Button
         disabled={isGameOver}
@@ -119,6 +120,12 @@ function GameControlButtonsPanel({
         <p className="select-none">Submit</p>
       </Button>
     </div>
+    <div>
+      <p className="text-center text-sm text-gray-500 mt-2">
+        {`Guesses Remaining: ${4 - submittedGuesses.length}`}
+      </p>
+    </div>
+    </>
   );
 }
 

@@ -303,27 +303,50 @@ export const CONNECTION_GAMES = [
   //     words: ["China","War","Media","Environmental"],
   //     difficulty:3,
   //   }, ]
+  // [
+  //   {
+  //       category: "Ashoka Fests",
+  //       words: ["Agneepath","Chimera","Banjaara","Equilibrium"],
+  //       difficulty:1,
+  //     },
+  //   {
+  //       category: "Rooms at Ashoka",
+  //       words: ["Yoga","Reading","Music","Mail"],
+  //       difficulty:4,
+  //     },
+  //   {
+  //       category: "Located in the Basement",
+  //       words: ["Tuck Shop","Archives","Laundry","Lockers"],
+  //       difficulty:3,
+  //     },
+  //     {
+  //           category: "Statues on Campus",
+  //           words: ["Hand","Book","Rat","Gandhi"],
+  //           difficulty:2,
+  //       }
+  // ],
   [
     {
-        category: "Ashoka Fests",
-        words: ["Agneepath","Chimera","Banjaara","Equilibrium"],
-        difficulty:1,
-      },
-    {
-        category: "Rooms at Ashoka",
-        words: ["Yoga","Reading","Music","Mail"],
-        difficulty:4,
-      },
-    {
-        category: "Located in the Basement",
-        words: ["Tuck Shop","Archives","Laundry","Lockers"],
-        difficulty:3,
-      },
-      {
-            category: "Statues on Campus",
-            words: ["Hand","Book","Rat","Gandhi"],
-            difficulty:2,
-        }
+          category: "Sports Block Ground Floor",
+          words: ["Infirmary","Salon","Dance Studio","Pool Table"],
+          difficulty:1,
+        },
+        {
+              category: "Labs at Ashoka",
+              words: ["Mphasis","Fly","Psychology","Media"],
+              difficulty:2,
+            },
+            {
+                  category: "Performance Venues",
+                  words: ["Black Box","Reddy's","Amphitheatre","Mess Lawns"],
+                  difficulty:3,
+                },
+                {
+                  category: "Ashoka Fests",
+                  words: ["Agneepath","Chimera","Banjaara","Equilibrium"],
+                  difficulty:4,
+                },
+
   ]
  
 ];

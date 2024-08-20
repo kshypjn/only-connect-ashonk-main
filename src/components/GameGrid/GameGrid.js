@@ -10,7 +10,7 @@ import { GameStatusContext } from "../../providers/GameStatusProvider";
 
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
 import { Badge } from "../ui/badge";
-import ArchiveModal from "../modals/ArchiveModal";
+
 function WordRow({ words }) {
   return (
     <div className={`grid gap-4 grid-cols-4  `}>
